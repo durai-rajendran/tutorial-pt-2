@@ -10,7 +10,7 @@ module.exports = {
 			key: '~/.ssh/first-group.pem',
 			ref: 'origin/master',
 			repo: 'git@github.com:durai-rajendran/tutorial-pt-2.git',
-			path: 'C:\Users\rajed004\Desktop\aws\tutorial-pt-2',
+			path: '/home/ubuntu/tutorial-2',
 			'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
 		}
 	}
